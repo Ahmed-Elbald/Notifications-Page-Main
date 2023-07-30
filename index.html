@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Favicon   -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <!-- Title -->
+  <title>Frontend Mentor | Notifications page</title>
+
+  <!-- CSS Links -->
+  <link rel="stylesheet" href="styles/main.css">
+
+  <!-- JS Scripts -->
+  <script src="./js/main.js" defer></script>
+</head>
+
+<body>
+
+  <main class="main">
+
+    <div class="c-container">
+      <header class="notifications-header">
+        <h1 class="notifications-header__title">
+          <span>Notifications</span>
+          <span>3</span>
+        </h1>
+        <button class="notifications-header__btn" type="button">
+          Mark all as read
+        </button>
+      </header>
+      <section class="notifications-content">
+        <div class="notification">
+          <div class="notification__media">
+            <img src="assets/images/avatar-mark-webber.webp" alt="Portfolio Image">
+          </div>
+          <div class="notification__content">
+            <p class="notification__content__text">
+              <a href="#" class="u-highlight u-highlight--dblue">Mark Webber </a>reacted to your recent post <a href="#"
+                class="u-highlight u-highlight--gray">My first tournament today!</a>
+              <span class="circle"></span>
+            </p>
+            <p class="notification__content__time">
+              1m ago
+            </p>
+          </div>
+        </div>
+        <div class="notification">
+          <div class="notification__media">
+            <img src="assets/images/avatar-angela-gray.webp" alt="Portfolio Image">
+          </div>
+          <div class="notification__content">
+            <p class="notification__content__text">
+              <a href="#" class="u-highlight u-highlight--dblue">Angela Gray </a>followed you
+              <span class="circle"></span>
+            </p>
+            <p class="notification__content__time">
+              5m ago
+            </p>
+          </div>
+        </div>
+        <div class="notification">
+          <div class="notification__media">
+            <img src="assets/images/avatar-jacob-thompson.webp" alt="Portfolio Image">
+          </div>
+          <div class="notification__content">
+            <p class="notification__content__text">
+              <a href="#" class="u-highlight u-highlight--dblue">Jacob Thompson </a>has joined your group <a href="#"
+                class="u-highlight u-highlight--blue">Chess Club</a>
+              <span class="circle"></span>
+            </p>
+            <p class="notification__content__time">
+              1 day ago
+            </p>
+          </div>
+        </div>
+        <div class="notification has-message" data-read>
+          <div class="notification__media">
+            <img src="assets/images/avatar-rizky-hasanuddin.webp" alt="Portfolio Image">
+          </div>
+          <div class="notification__content">
+            <p class="notification__content__text">
+              <a href="#" class="u-highlight u-highlight--dblue">Rizky Hasanuddin </a>sent you a private message
+              <span class="circle"></span>
+            </p>
+            <p class="notification__content__time">
+              5 days ago
+            </p>
+          </div>
+          <p class="notification__message">
+            Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and
+            I'm already having lots of fun and improving my game.
+          </p>
+        </div>
+        <div class="notification has-picture" data-read>
+          <div class="notification__media">
+            <img src="assets/images/avatar-kimberly-smith.webp" alt="Portfolio Image">
+          </div>
+          <div class="notification__content">
+            <p class="notification__content__text">
+              <a href="#" class="u-highlight u-highlight--dblue">Kimberly Smith </a>commented on your picture
+              <span class="circle"></span>
+            </p>
+            <p class="notification__content__time">
+              1 week ago
+            </p>
+          </div>
+          <div class="notification__picture">
+            <img src="assets/images/image-chess.webp" alt="Your Picture">
+          </div>
+        </div>
+        <div class="notification" data-read>
+          <div class="notification__media">
+            <img src="assets/images/avatar-nathan-peterson.webp" alt="Portfolio Image">
+          </div>
+          <div class="notification__content">
+            <p class="notification__content__text">
+              <a href="#" class="u-highlight u-highlight--dblue">Nathan Peterson </a>reacted to your recent post <a
+                href="#" class="u-highlight u-highlight--gray">5 end-game strategies to increase your win rate</a>
+              <span class="circle"></span>
+            </p>
+            <p class="notification__content__time">
+              2 weeks ago
+            </p>
+          </div>
+        </div>
+        <div class="notification" data-read>
+          <div class="notification__media">
+            <img src="assets/images/avatar-anna-kim.webp" alt="Portfolio Image">
+          </div>
+          <div class="notification__content">
+            <p class="notification__content__text">
+              <a href="#" class="u-highlight u-highlight--dblue">Anna Kim </a>left the group <a href="#"
+                class="u-highlight u-highlight--blue">Chess Club</a>
+              <span class="circle"></span>
+            </p>
+            <p class="notification__content__time">
+              2 weeks ago
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+  </main>
+</body>
+
+</html>
